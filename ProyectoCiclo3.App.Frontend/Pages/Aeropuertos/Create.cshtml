@@ -1,0 +1,24 @@
+@page
+@model ProyectoCiclo3.App.Frontend.Pages.FormAeropuertosModel
+@{
+}
+
+<div class="text-center">
+    <form method="POST">
+        <label for="nombre" class="form-label">Nombre:</label>
+        <input type="text" class="form-control" id="nombre" name="nombre" required placeholder="Nombre">
+        <label for="ciudad" class="form-label">Ciudad:</label>
+        <input type="text" class="form-control" id="ciudad" name="ciudad" required placeholder="Ciudad">
+
+        <label for="pais" class="form-label">Pais:</label>
+        <input type="text" class="form-control" id="pais" name="pais" required placeholder="Pais">
+
+        <label for="coord_x" class="form-label">Coord X:</label>
+        <input type="number" class="form-control" id="coord_x" name="coord_x" required placeholder="Coord X">
+
+        <label for="coord_y" class="form-label">Coord Y:</label>
+        <input type="number" class="form-control" id="coord_y" name="coord_y" required placeholder="Coord Y">
+        <hr>
+        <button type="submit" class="btn btn-success">Enviar</button>
+    </form>
+</div>
